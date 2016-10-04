@@ -14,19 +14,18 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var changeFontButton: UIButton!
     var data = ["Hi humanoid, we're friends", "I scream for ice-cream","lovely lemon liminent","stop and smile","I guess I'm in love, dude"]
-    var fontNames = ["Watermelon Script Demo","Great Day Personal Use"]
+    var fontNames = ["Watermelon Script Demo","Great Day Personal Use","The Display St","Apple Butter"]
     var fontRowIndex = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         fontTableview.dataSource = self
-        fontTableview.delegate = self
+//        fontTableview.delegate = self
         for family in UIFont.familyNames{
             for font in UIFont.fontNames(forFamilyName: family){
                 print(font)
             }
         }
-        changeFontButton.layer.cornerRadius = 55
         
     }
 
@@ -36,13 +35,15 @@ class ViewController: UIViewController {
 
 
     @IBAction func changeFontTapped(_ sender: UIButton) {
-        fontRowIndex = (fontRowIndex + 1) % 5
+        fontRowIndex = (fontRowIndex + 1) % 4
         print(fontNames[fontRowIndex])
         fontTableview.reloadData()
     }
-    
+
+  
 }
 extension ViewController: UITableViewDataSource{
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -55,13 +56,13 @@ extension ViewController: UITableViewDataSource{
         let  text = data[(indexPath as NSIndexPath).row]
         cell.textLabel?.text = text
         cell.textLabel?.textColor = UIColor.white
-        cell.textLabel?.font = UIFont(name: self.fontNames[fontRowIndex], size: 20)
+        cell.textLabel?.font = UIFont(name: self.fontNames[fontRowIndex], size: 16)
         return cell
     }
 }
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
+        return 40
     }
 }
 

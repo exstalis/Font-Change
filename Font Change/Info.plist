@@ -41,5 +41,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Watermelon Script Demo.ttf</string>
+		<string>Apple Butter.ttf</string>
+		<string>The Display St.ttf</string>
+		<string>Great Day Personal Use.ttf</string>
+	</array>
 </dict>
 </plist>

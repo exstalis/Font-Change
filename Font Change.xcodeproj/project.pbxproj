@@ -14,6 +14,8 @@
 		A3B150E71DA2B2BA00D0DC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B150E51DA2B2BA00D0DC30 /* LaunchScreen.storyboard */; };
 		A3B150EF1DA2B6B900D0DC30 /* Watermelon Script Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B150EE1DA2B6B900D0DC30 /* Watermelon Script Demo.ttf */; };
 		A3B150F11DA2B6C700D0DC30 /* Great Day Personal Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B150F01DA2B6C700D0DC30 /* Great Day Personal Use.ttf */; };
+		A3B150F41DA3975C00D0DC30 /* The Display St.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B150F31DA3975C00D0DC30 /* The Display St.ttf */; };
+		A3B150F61DA3996100D0DC30 /* Apple Butter.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B150F51DA3996100D0DC30 /* Apple Butter.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		A3B150E81DA2B2BA00D0DC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3B150EE1DA2B6B900D0DC30 /* Watermelon Script Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Watermelon Script Demo.ttf"; sourceTree = "<group>"; };
 		A3B150F01DA2B6C700D0DC30 /* Great Day Personal Use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great Day Personal Use.ttf"; sourceTree = "<group>"; };
+		A3B150F31DA3975C00D0DC30 /* The Display St.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Display St.ttf"; sourceTree = "<group>"; };
+		A3B150F51DA3996100D0DC30 /* Apple Butter.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apple Butter.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				A3B150EE1DA2B6B900D0DC30 /* Watermelon Script Demo.ttf */,
+				A3B150F51DA3996100D0DC30 /* Apple Butter.ttf */,
+				A3B150F31DA3975C00D0DC30 /* The Display St.ttf */,
 				A3B150F01DA2B6C700D0DC30 /* Great Day Personal Use.ttf */,
 			);
 			name = Fonts;
@@ -138,7 +144,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3B150F41DA3975C00D0DC30 /* The Display St.ttf in Resources */,
 				A3B150E71DA2B2BA00D0DC30 /* LaunchScreen.storyboard in Resources */,
+				A3B150F61DA3996100D0DC30 /* Apple Butter.ttf in Resources */,
 				A3B150E41DA2B2BA00D0DC30 /* Assets.xcassets in Resources */,
 				A3B150F11DA2B6C700D0DC30 /* Great Day Personal Use.ttf in Resources */,
 				A3B150EF1DA2B6B900D0DC30 /* Watermelon Script Demo.ttf in Resources */,
