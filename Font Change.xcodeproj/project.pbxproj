@@ -12,6 +12,8 @@
 		A3B150E21DA2B2BA00D0DC30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B150E01DA2B2BA00D0DC30 /* Main.storyboard */; };
 		A3B150E41DA2B2BA00D0DC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3B150E31DA2B2BA00D0DC30 /* Assets.xcassets */; };
 		A3B150E71DA2B2BA00D0DC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B150E51DA2B2BA00D0DC30 /* LaunchScreen.storyboard */; };
+		A3B150EF1DA2B6B900D0DC30 /* Watermelon Script Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B150EE1DA2B6B900D0DC30 /* Watermelon Script Demo.ttf */; };
+		A3B150F11DA2B6C700D0DC30 /* Great Day Personal Use.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3B150F01DA2B6C700D0DC30 /* Great Day Personal Use.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A3B150E31DA2B2BA00D0DC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3B150E61DA2B2BA00D0DC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3B150E81DA2B2BA00D0DC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B150EE1DA2B6B900D0DC30 /* Watermelon Script Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Watermelon Script Demo.ttf"; sourceTree = "<group>"; };
+		A3B150F01DA2B6C700D0DC30 /* Great Day Personal Use.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Great Day Personal Use.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +61,21 @@
 				A3B150DC1DA2B2BA00D0DC30 /* AppDelegate.swift */,
 				A3B150DE1DA2B2BA00D0DC30 /* ViewController.swift */,
 				A3B150E01DA2B2BA00D0DC30 /* Main.storyboard */,
+				A3B150F21DA2B7A800D0DC30 /* Fonts */,
 				A3B150E31DA2B2BA00D0DC30 /* Assets.xcassets */,
 				A3B150E51DA2B2BA00D0DC30 /* LaunchScreen.storyboard */,
 				A3B150E81DA2B2BA00D0DC30 /* Info.plist */,
 			);
 			path = "Font Change";
+			sourceTree = "<group>";
+		};
+		A3B150F21DA2B7A800D0DC30 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A3B150EE1DA2B6B900D0DC30 /* Watermelon Script Demo.ttf */,
+				A3B150F01DA2B6C700D0DC30 /* Great Day Personal Use.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,8 @@
 			files = (
 				A3B150E71DA2B2BA00D0DC30 /* LaunchScreen.storyboard in Resources */,
 				A3B150E41DA2B2BA00D0DC30 /* Assets.xcassets in Resources */,
+				A3B150F11DA2B6C700D0DC30 /* Great Day Personal Use.ttf in Resources */,
+				A3B150EF1DA2B6B900D0DC30 /* Watermelon Script Demo.ttf in Resources */,
 				A3B150E21DA2B2BA00D0DC30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
